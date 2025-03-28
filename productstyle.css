@@ -1,0 +1,50 @@
+#container {
+    width: 900px;
+    height: 500px;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .productBox {
+    width: 298px;
+    height: 500px;
+    border: 1px solid black;
+    float: left;
+  }
+  
+  .image {
+    width: 298px;
+    height: 300px;
+    border: 1px solid black;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  img:hover {
+    transform: scale(1.1); /* Scale the image */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); /* Add shadow effect */
+  }
+  .price {
+    width: 298px;
+    height: 50px;
+    border: 1px solid black;
+    color: white;
+    background-color: #e74c3c;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-family: "Roboto Slab", serif;
+    transition: all 0.3s ease;
+  }
+  button:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Add shadow */
+    border-color: #e74c3c; /* Border color */
+    transform: scale(1.05); /* Slightly scale up the button */
+  }
+  .description {
+    width: 298px;
+    height: 150px;
+    border: 1px solid black;
+    font-family: "Tektur", sans-serif;
+    background-color: aquamarine;
+  }
+  
